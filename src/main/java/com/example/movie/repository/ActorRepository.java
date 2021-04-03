@@ -20,3 +20,4 @@ public interface ActorRepository extends JpaRepository<Actor, Integer> {
     @Modifying
     void deleteById(Integer id);
 }
+// repository
